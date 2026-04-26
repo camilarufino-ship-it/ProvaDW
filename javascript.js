@@ -11,7 +11,7 @@ document.querySelectorAll('.btn-mais').forEach(botao => {
 
         valortotal.innerText = totalgeral.toFixed(2);
     
-    console.log('Valor do filme adicionado: R$'+ precofilme.toFixed(2));
+    
 });
 });
 
@@ -27,9 +27,8 @@ document.querySelectorAll('.btn-menos').forEach(botao => {
         if(totalgeral < 0)
         totalgeral = 0;
 
-    valortotal.innerHTML = totalgeral.toFixed(2);
+    valortotal.innerText = totalgeral.toFixed(2);
 
-          console.log('Valor do filme removido: R$'+ precofilme.toFixed(2));
         };
     });
 });
