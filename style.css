@@ -52,3 +52,14 @@ button{
 button:hover{
     background-color: #0056b3;
 }
+.total-compra{
+     text-align: center;
+     margin-top: 20px;
+     border-radius: 8px;
+    background-color: #e9ecef;
+    border: 2px solid rgb(178, 178, 193);
+    padding: 20px;
+    width: 300px;
+    justify-self:center;
+
+}

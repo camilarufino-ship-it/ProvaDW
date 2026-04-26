@@ -22,8 +22,14 @@
             <p> 18 | Suspense | 2h17min</p>
 
             <div class="acoes">
-                <span class="preco">R$ 20,30</span>
-                <button>Comprar</button>
+                <h5> R$: 20,30</h5>
+
+        
+                <button class="btn-menos" data-valor="20.30">-</button>
+                <button class="btn-mais" data-valor="20.30">+</button>
+
+            </div>
+                
             </div>
         </div>
     </div>
@@ -36,8 +42,11 @@
             <p> 14 | Aventura | 3h</p>
 
             <div class="acoes">
-                <span class="preco">R$ 15,15</span>
-                <button>Comprar</button>
+                <h5> R$: 15,15</h5>
+
+                <button class="btn-menos" data-valor="15.15">-</button>
+                <button class="btn-mais" data-valor="15.15">+</button>
+        
             </div>
         </div>
     </div>
@@ -50,9 +59,11 @@
             <p> 14 | Aventura | 3h 17min </p>
 
             <div class="acoes">
-                <span class="preco">R$ 25,16
-                </span>
-                <button>Comprar</button>
+                <h5> R$: 25,16</h5>
+
+                <button class="btn-menos" data-valor="25.16">-</button>
+                <button class="btn-mais" data-valor="25.16">+</button>
+
             </div>
         </div>
     </div>
@@ -65,8 +76,11 @@
             <p> 12 | Crime | 2h32min</p>
 
             <div class="acoes">
-                <span class="preco">R$ 19,43</span>
-                <button>Comprar</button>
+                <h5> R$: 19,43</h5>
+
+                <button class="btn-menos" data-valor="19.43">-</button>
+                <button class="btn-mais" data-valor="19.43">+</button>
+
             </div>
         </div>
     </div>
@@ -79,13 +93,22 @@
             <p> 14 | Animação | 1h52min</p>
 
             <div class="acoes">
-                <span class="preco">R$ 22,99</span>
-                <button>Comprar</button>
+                <h5> R$: 22,99</h5>
+
+                <button class="btn-menos" data-valor="22.99">-</button>
+                <button class="btn-mais" data-valor="22.99">+</button>
+
             </div>
         </div>
     </div>
 
-</div>
 
+    <div class="total-compra">
+        <p>Total: R$ <span id="valor-total">0.00</span></p>
+        <button id="finalizar-compra">Finalizar Compra</button>
+    </div>
+
+</div>
+     <script src = "javascript.js"></script>
 </body>
 </html>
