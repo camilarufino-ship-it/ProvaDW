@@ -2,13 +2,18 @@ body{
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
-    padding: 20px;
     font-weight: bolder;
     font-size: 18px;
 }
 .topo{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 40px;
+    background-color:#3c0e77;
+    border-radius: 8px;
+    height: 100px;
+    width: 100%;
 
 }
 
