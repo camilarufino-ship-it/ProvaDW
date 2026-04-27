@@ -24,6 +24,8 @@ document.querySelectorAll('.btn-menos').forEach(botao => {
             totalgeral -= precofilme;
             quantidade[precofilme] -= 1; 
         
+        if(totalgeral < 0)
+        totalgeral = 0;
 
     valortotal.innerText = totalgeral.toFixed(2);
 
